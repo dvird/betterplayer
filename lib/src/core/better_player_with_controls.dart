@@ -148,15 +148,10 @@ class _BetterPlayerWithControlsState extends State<BetterPlayerWithControls> {
     return controlsConfiguration.showControls
         ? controlsConfiguration.customControls != null
             ? controlsConfiguration.customControls
-            : Platform.isAndroid
-                ? BetterPlayerMaterialControls(
-                    onControlsVisibilityChanged: onControlsVisibilityChanged,
-                    controlsConfiguration: controlsConfiguration,
-                  )
-                : BetterPlayerCupertinoControls(
-                    onControlsVisibilityChanged: onControlsVisibilityChanged,
-                    controlsConfiguration: controlsConfiguration,
-                  )
+            : BetterPlayerMaterialControls(
+      onControlsVisibilityChanged: onControlsVisibilityChanged,
+      controlsConfiguration: controlsConfiguration,
+    )
         : const SizedBox();
   }
 
