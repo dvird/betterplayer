@@ -240,7 +240,7 @@ class _BetterPlayerCupertinoControlsState
                       ? _controlsConfiguration.fullscreenDisableIcon
                       : _controlsConfiguration.fullscreenEnableIcon,
                   color: iconColor,
-                  size: 12.0,
+                  size: 16.0,
                 ),
               ),
             ),
@@ -380,7 +380,7 @@ class _BetterPlayerCupertinoControlsState
               ? _controlsConfiguration.pauseIcon
               : _controlsConfiguration.playIcon,
           color: iconColor,
-          size: 16.0,
+          size: 18.0,
         ),
       ),
     );
@@ -428,7 +428,7 @@ class _BetterPlayerCupertinoControlsState
         child: Icon(
           _controlsConfiguration.skipBackIcon,
           color: iconColor,
-          size: 12.0,
+          size: 16.0,
         ),
       ),
     );
@@ -445,7 +445,7 @@ class _BetterPlayerCupertinoControlsState
         child: Icon(
           _controlsConfiguration.skipForwardIcon,
           color: iconColor,
-          size: 12.0,
+          size: 16.0,
         ),
       ),
     );
